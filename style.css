@@ -1,3 +1,103 @@
-body{
+body {
+ background-color:hsl(217,54%,11%) ;
+ max-width: 1440px;
 
+}
+.main-container{
+    background-color:hsl(216,50%,16%) ;
+    margin-top:10%;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+    height:370px;
+    border-radius:10px;
+    box-shadow:10px 20px 0px 3px rgb(8, 20, 43), -10px 20px 0px 3px  rgb(8, 20, 43);
+}
+.nft-img{
+    width:174px;
+    margin:auto;
+    border-radius:5px;
+    position:relative;
+    top:10px;
+    display:block;
+}
+.nft-name{
+    color:white;
+    font-family:Outfit,monospace;
+    padding-left:16px;
+    padding-top:4px;
+    font-size:14px;
+    font-weight:600;
+    margin-top: 0px;
+}
+.nft-desc{
+    display:block;
+padding-left:16px;
+font-size:10px;
+font-family:Outfit,monospace;
+font-weight:600;
+color:rgb(85, 111, 147);
+
+}
+.meth{
+    padding-left:16px;
+}
+.span1{
+    font-family:Outfit,monospace;
+    font-weight:600;
+    font-size:12px;
+    color:rgb(86, 203, 182);
+    position: relative;
+    bottom:4px;
+    padding-left:1px;
+}
+.span2{
+    position:relative;
+    bottom:4px;
+    margin-left:-4px;
+    font-size:12px;
+    color:rgb(85, 111, 147);
+    font-family:Outfit,monospace;
+    font-weight:400;
+    
+}
+.clock{
+    width:12px;
+    position: relative;
+    bottom:2px;
+    margin-left:30px;
+    padding-right:5px;
+}
+hr{
+    width:85%;
+    height:1.5px;
+   border-color: rgb(74, 21, 148);
+   background-color: rgb(138, 129, 229);
+   opacity:0.08;
+}
+.span3{
+    color:white;
+}
+.creator{
+    font-family:Outfit,monospace;
+    font-weight:500 ;
+    font-size:11px;
+    color:rgb(85, 111, 147);
+
+}
+.creatordude{
+    width:25px;
+    margin-left:6%;
+    border-style:solid;
+    border-radius:50%;
+    border-color:rgb(143, 139, 139);
+    border-width:2px;
+    position:relative;
+    bottom:4px;
+    
+}
+.span4{
+    position: relative;
+    bottom:13px;
+    margin-left:3%;
 }
